@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdlib.h>
-long long* LAN; //·£¼±ÀÇ ÃÖ´ë ±æÀÌ (2^31)-1
+long long* LAN; //Â·Â£Â¼Â±Ã€Ã‡ ÃƒÃ–Â´Ã« Â±Ã¦Ã€ÃŒ (2^31)-1
 int K, N;
 int check(int mid) {
                 int cnt = 0;

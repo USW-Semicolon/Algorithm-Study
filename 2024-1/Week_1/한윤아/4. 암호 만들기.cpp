@@ -4,7 +4,7 @@
 #define swap(a,b) {char t=a; a=b; b=t;}
 char code[MAX_SIZE], tmp[MAX_SIZE];
 int L, C;
-int is_satis() {//¸ğÀ½, ÀÚÀ½ Á¶°Ç ¸¸Á· È®ÀÎ
+int is_satis() {//Â¸Ã°Ã€Â½, Ã€ÃšÃ€Â½ ÃÂ¶Â°Ã‡ Â¸Â¸ÃÂ· ÃˆÂ®Ã€Ã
                 int vo = 0, con = 0;
                 for (int i = 0; i < L; i++) {
                                 switch (tmp[i]) {

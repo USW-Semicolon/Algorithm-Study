@@ -27,7 +27,7 @@ int main()
                 }
                 two_friends();
                 int max = 0;
-                for (int i = 0; i < N; i++) {//Çà¸¶´Ù Ä£±¸ ¼ö °è»ê
+                for (int i = 0; i < N; i++) {//Ã‡Ã Â¸Â¶Â´Ã™ Ã„Â£Â±Â¸ Â¼Ã¶ Â°Ã¨Â»Ãª
                                 int cnt = 0;
                                 for (int j = 0; j < N; j++) {
                                                 if (myFriend[i][j] <= 2) cnt++;
